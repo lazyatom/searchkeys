@@ -1,0 +1,12 @@
+{
+  "name": "Searchkeys",
+  "version": "0.0.1",
+  "description": "Navigate Google search results via the keyboard.",
+  "content_scripts": [
+    { 
+      "matches": ["http://www.google.co.uk/search?*"], 
+      "js": ["jquery.1.4.2.min.js", "searchkeys.js"],
+      "css": ["searchkeys.css"]
+    }
+  ]
+}
